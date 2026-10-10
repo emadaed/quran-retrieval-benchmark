@@ -129,7 +129,7 @@ guard against, and it's rare. One was found and fixed:
 | roman_urdu | 40 | tightened 2, deleted 1 (half-query) |
 | cross_lingual_en | 40 | no changes (all clean) |
 | lexical_ar | 60 | pending |
-| **total** | **197 so far** | **5 fixes + 3 deletions** |
+| **total** | **196 so far** | **5 fixes + 3 deletions** |
 
 Net: the file went from 199 → 196 questions with the current fixes,
 and every remaining gold verse has been human-reviewed by the author
