@@ -47,3 +47,8 @@ data/sources/
 
 # Working files that are not yet reviewed
 *.bak
+# Local review artifacts — not committed
+review_*.txt
+data/*.json.bak
+data/*.json.*_bak
+data/*.json.pre_fix_bak

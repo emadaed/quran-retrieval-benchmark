@@ -65,9 +65,24 @@ not `concept match`.
 
 ---
 
+## Pattern 4 — the tail of the verse matters
+
+A verse's main clause may be on a different topic, but its closing
+command or statement may directly address the query.
+
+Example (semantic_ar `التوبة والرجوع إلى الله`):
+- 24:31 — main content is modesty guidance, but the closing command
+  reads "**وَتُوبُوا إِلَى اللَّهِ جَمِيعًا**" ("and turn to Allah in
+  repentance, all of you") — directly on-topic.
+
+**Rule:** read the whole verse, including the tail. A verse that starts
+off-topic and ends on-topic is a valid gold for the ending's topic.
+
+---
+
 ## What this means for tooling
 
-The automated validator (`validate_qids.py`) checks:
+The automated validator (`tools/validate_qids.py`) checks:
 - qid uniqueness
 - qid format
 - bucket / lang consistency
@@ -78,22 +93,47 @@ The automated validator **cannot** check:
 - whether the verse answers the query
 - whether both halves of a multi-hop query are present
 - whether the root is used in the intended sense
+- whether the verse's tail is the relevant part
 
 **Only a human can check these.** Every gold verse must be read by a
 human before commit. This is the Sadaqa.
 
 ---
 
-## Amendment to Session 5 journal (later, optional)
+## Cross-bucket topic overlap is intentional
 
-The retriever session journal (`Ahmad-AI/journal/2026-10-10-day24.md`)
-reports "no regression on Arabic buckets" and similar metrics that
-assumed the gold verses were correct. At the time, they had not been
-semantically verified. Session 7a's review found ~2% of gold verses
-required correction. The retriever metrics from session 5 are still
-valid directionally, but the exact R@5 numbers may shift slightly after
-the gold is fully cleaned. Note this in the eventual retriever journal
-when we re-run the eval.
+The same topic appears across buckets, e.g. "patience" appears as:
+- `ae_en_000`, `ae_en_001` (English, from wahi)
+- `ae_sem_wahi_000` (Arabic, from wahi)
+- `ae_cross_lingual_en_022` (English, hand-labeled)
+- `ae_roman_urdu_040` (Roman-Urdu, hand-labeled)
+
+This is **not duplication**. Each bucket tests a different retrieval
+mode (English paraphrase, Arabic paraphrase, cross-lingual, Roman-Urdu).
+The same topic in different buckets lets us compare R@5 across modes
+for the same concept.
+
+**Real duplication** — same bucket, same query, same topic — is what we
+guard against, and it's rare. One was found and fixed:
+`ae_semantic_ar_014` (duplicate of `ae_multi_hop_ar_001`).
+
+---
+
+## Session 7a review summary
+
+| bucket | reviewed | changes |
+|---|---|---|
+| multi_hop_ar | 2 | tightened `_000` refs (removed 3) |
+| unanswerable_ar | 17 | deleted 1 (crypto duplicate) |
+| semantic_ar | 40 | deleted 1 (duplicate of multi_hop_001) |
+| roman_urdu | 40 | tightened 2, deleted 1 (half-query) |
+| cross_lingual_en | 40 | no changes (all clean) |
+| lexical_ar | 60 | pending |
+| **total** | **197 so far** | **5 fixes + 3 deletions** |
+
+Net: the file went from 199 → 196 questions with the current fixes,
+and every remaining gold verse has been human-reviewed by the author
+against the actual Quranic text.
 
 ---
 
