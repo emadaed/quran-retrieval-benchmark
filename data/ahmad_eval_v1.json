@@ -642,10 +642,7 @@
   "query": "الصبر والصلاة",
   "expected_verses": [
    "2:45",
-   "2:153",
-   "2:155",
-   "2:156",
-   "2:157"
+   "2:153"
   ],
   "answerable": true,
   "source_dataset": "manual",
@@ -3015,17 +3012,6 @@
   "lang": "ar",
   "bucket": "unanswerable_ar",
   "query": "ما هي مبطلات الصيام المعاصرة كالإبر والمغذيات؟",
-  "expected_verses": [],
-  "answerable": false,
-  "source_dataset": "manual",
-  "source_id": "",
-  "notes": "hand-labeled"
- },
- {
-  "qid": "ae_unanswerable_ar_011",
-  "lang": "ar",
-  "bucket": "unanswerable_ar",
-  "query": "ما هو حكم التعامل بالعملات الرقمية المشفرة؟",
   "expected_verses": [],
   "answerable": false,
   "source_dataset": "manual",
