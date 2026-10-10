@@ -525,3 +525,141 @@ Before you hand the human any JSON file, mentally verify:
 □ Every "NEW FILE" block includes the full absolute path and the
 Save as UTF-8 instruction.
 If any box is unchecked, fix before sending.
+
+_______________________________
+## 10. Prefer `add_label.py` commands over draft JSON files
+
+Section 2 teaches you to hand the human a new file with the
+`notepad <path>` + full content template. That still applies for
+**documentation**, **READMEs**, and **any ASCII-only content**.
+
+**But for question data containing Arabic or Urdu, do NOT hand the human
+a JSON file to save in Notepad.** Here is why.
+
+### 10.1 The encoding failure we have seen
+
+Arabic text passed through a chat message → clipboard → Notepad can be
+mangled. Real example from an earlier session:
+
+- Intended: `"query": "الاستغفار"`
+- What Notepad saved: `"query": "Ø§Ù„Ø§Ø³ØªØºÙØ§Ø±"`
+
+That is UTF-8 bytes reinterpreted as Latin-1 (mojibake). Every command
+downstream fails, the human has to debug, and the failure is silent —
+the tool accepts the string, it is just wrong.
+
+The workflow doc already tells the human to "Save as UTF-8". That is
+necessary but not sufficient. Notepad's encoding dropdown does not
+always win, and even if it does, a mojibake string that arrives at the
+human's clipboard is already broken before Notepad sees it.
+
+### 10.2 The rule
+
+**For any content containing non-ASCII text (Arabic, Urdu, or any
+non-Latin script), do NOT produce a file. Produce `add_label.py`
+commands instead.**
+
+The tool writes the benchmark file directly. If the Arabic arrives at
+the human's clipboard mangled, the `add_label.py` command visibly fails
+— the human sees garbage in the terminal — and nothing is committed.
+The failure is loud instead of silent.
+
+### 10.3 What this looks like in practice
+
+**Wrong — do not do this:**
+NEW FILE
+========
+Path: D:\quran-retrieval-benchmark\data\phase_a_drafts.json
+...
+[full JSON with Arabic queries]
+...
+
+text
+
+**Right — do this instead:**
+
+For each candidate question, hand the human three commands. Example for
+one question:
+QUESTION
+========
+bucket: lexical_ar
+query: الاستغفار (root غ-ف-ر, "seeking forgiveness")
+candidate verses: 3:135, 71:10, 110:3, 3:17
+rationale: 3:135 and 71:10 explicitly link istighfar to forgiveness;
+110:3 is a command to seek forgiveness; 3:17 names the
+"seekers of forgiveness" among the righteous.
+
+VERIFY — Step 1, list candidates for this query:
+
+COMMAND
+=======
+Purpose: search the Quran for الاستغفار
+cd D:\quran-retrieval-benchmark
+..venv\Scripts\Activate.ps1
+python tools\label_helper.py search "الاستغفار"
+
+Expected: a list of verses tagged [surface] or [root]. Confirm each
+of 3:135, 71:10, 110:3, 3:17 appears and is relevant.
+
+VERIFY — Step 2, inspect each proposed verse:
+
+COMMAND
+=======
+Purpose: show 3:135
+cd D:\quran-retrieval-benchmark
+..venv\Scripts\Activate.ps1
+python tools\label_helper.py show 3:135
+
+Expected: Arabic + English. Confirm the verse discusses seeking
+forgiveness, not just contains the root.
+
+(repeat for 71:10, 110:3, 3:17)
+
+COMMIT — after the human verifies all verses:
+
+COMMAND
+=======
+Purpose: add the question to the benchmark
+cd D:\quran-retrieval-benchmark
+..venv\Scripts\Activate.ps1
+python tools\add_label.py lexical_ar "الاستغفار" 3:135 71:10 110:3 3:17
+
+Expected: "ADDED: ae_lexical_ar_<NNN>"
+
+text
+
+The human runs the commands. If a verse is wrong, they reject it and
+you re-propose. If the query string arrived mangled, the `search`
+command visibly prints garbage. Either way, nothing is committed until
+the human types the final `add_label.py` line.
+
+### 10.4 When a file IS still appropriate
+
+Section 2 remains correct for:
+
+- Documentation (`WORKFLOW.md`, `SCHEMA.md`, `README.md`, etc.).
+- ASCII-only JSON (e.g., a manifest of question IDs).
+- Scripts and config.
+
+For anything else with non-ASCII content, use `add_label.py` commands.
+
+### 10.5 The one exception — English-only drafts
+
+If you are drafting a batch of `cross_lingual_en` questions, the
+`query` fields are English (ASCII). Those can safely go in a draft JSON
+file. But even then, the `add_label.py` command path is preferred,
+because it means the human never has to reconcile a draft file against
+the committed file.
+
+**Default to `add_label.py` commands. Fall back to files only for
+ASCII-only content or documentation.**
+
+### 10.6 Summary — three ways to hand the human work
+
+| What you are delivering | How to deliver it |
+|---|---|
+| Documentation (ASCII) | NEW FILE template (Section 2) |
+| Non-ASCII question content | `add_label.py` commands (this section) |
+| English-only question content | Either; `add_label.py` preferred |
+
+If in doubt, use `add_label.py`
