@@ -1,0 +1,49 @@
+# Virtual environments
+venv/
+venv*/
+.venv/
+.venv_*/
+env/
+env.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+
+# Large / derived files — never version these
+*.db
+*.db-wal
+*.db-shm
+*.npy
+*.npz
+*.safetensors
+*.bin
+*.pt
+*.onnx
+
+# The canonical DB and Tanzil files are kept out of this repo on purpose.
+canonical_quran.db
+en.yusufali.txt
+data/sources/
+
+# Working files that are not yet reviewed
+*.bak

@@ -1,0 +1,1079 @@
+[
+ {
+  "qid": "ae_en_000",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "how to be patient during hardship and difficulty",
+  "expected_verses": [
+   "2:153",
+   "2:155",
+   "94:5",
+   "94:6",
+   "3:200",
+   "39:10"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "patience-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_001",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "dealing with grief and the loss of a loved one",
+  "expected_verses": [
+   "2:155",
+   "2:156",
+   "3:185",
+   "21:35"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "grief-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_002",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "do not despair, Allah forgives all sins",
+  "expected_verses": [
+   "39:53",
+   "4:110",
+   "3:135"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "forgiveness-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_003",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "being thankful and grateful to God increases blessings",
+  "expected_verses": [
+   "14:7",
+   "2:152",
+   "31:12"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "gratitude-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_004",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the story of Mary mother of Jesus",
+  "expected_verses": [
+   "3:42",
+   "3:45",
+   "19:16",
+   "19:17",
+   "19:20",
+   "19:27",
+   "66:12",
+   "21:91"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "maryam-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_005",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "reward for giving charity and spending in the way of God",
+  "expected_verses": [
+   "2:261",
+   "2:267",
+   "2:274",
+   "57:18"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "charity-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_006",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "standing up firmly for justice and fairness",
+  "expected_verses": [
+   "4:135",
+   "5:8",
+   "16:90"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "justice-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_007",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "kindness and good treatment to your parents",
+  "expected_verses": [
+   "17:23",
+   "17:24",
+   "31:14",
+   "46:15"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "parents-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_008",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "putting your trust and reliance in God",
+  "expected_verses": [
+   "65:3",
+   "3:159",
+   "8:2",
+   "9:51",
+   "64:13",
+   "8:61",
+   "10:84",
+   "14:11",
+   "39:38"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "tawakkul-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_009",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the prohibition of usury and interest",
+  "expected_verses": [
+   "2:275",
+   "2:276",
+   "2:278",
+   "3:130"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "riba-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_010",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "fasting and the month of Ramadan",
+  "expected_verses": [
+   "2:183",
+   "2:185",
+   "2:187"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "fasting-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_011",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "love and mercy between husband and wife",
+  "expected_verses": [
+   "30:21",
+   "4:1",
+   "2:187"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "marriage-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_012",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "signs of God in the creation of the heavens and the earth",
+  "expected_verses": [
+   "3:190",
+   "2:164",
+   "21:30",
+   "41:53",
+   "30:22",
+   "42:29"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "creation-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_013",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "caring for orphans and not oppressing them",
+  "expected_verses": [
+   "93:9",
+   "2:220",
+   "4:2",
+   "4:10"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "orphans-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_014",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the sin of backbiting and gossip about others",
+  "expected_verses": [
+   "49:12",
+   "104:1"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "backbiting-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_015",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "do not be wasteful or extravagant in spending",
+  "expected_verses": [
+   "7:31",
+   "17:26",
+   "17:27",
+   "25:67"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "moderation-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_016",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "life is a test and trial from God",
+  "expected_verses": [
+   "67:2",
+   "29:2",
+   "2:155",
+   "21:35"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "tests-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_017",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "Allah is the light of the heavens and the earth",
+  "expected_verses": [
+   "24:35"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "light-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_018",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "an atom's weight of good or evil on the day of judgement",
+  "expected_verses": [
+   "99:7",
+   "99:8"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "judgement-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_en_019",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "sincere repentance and turning back to God",
+  "expected_verses": [
+   "66:8",
+   "9:104",
+   "24:31"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "repentance-en",
+  "notes": "thematic query; any gold key counts"
+ },
+ {
+  "qid": "ae_sem_wahi_000",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "الصبر عند المصيبة والشدة",
+  "expected_verses": [
+   "2:153",
+   "2:155",
+   "2:156",
+   "94:5",
+   "94:6"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "patience-ar",
+  "notes": "thematic AR query from wahi"
+ },
+ {
+  "qid": "ae_sem_wahi_001",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "التوبة والرجوع إلى الله",
+  "expected_verses": [
+   "66:8",
+   "9:104",
+   "24:31"
+  ],
+  "answerable": true,
+  "source_dataset": "wahi-quran-retrieval-pairs/benchmark",
+  "source_id": "repentance-ar",
+  "notes": "thematic AR query from wahi"
+ },
+ {
+  "qid": "ae_lexical_ar_020",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الصدقة",
+  "expected_verses": [
+   "2:263",
+   "2:264",
+   "2:271",
+   "9:60",
+   "57:18"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_021",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الصدق",
+  "expected_verses": [
+   "3:17",
+   "5:119",
+   "9:119",
+   "33:70"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_022",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الصبر على البلاء",
+  "expected_verses": [
+   "2:153",
+   "2:155",
+   "2:156",
+   "2:157"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_023",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "العفو",
+  "expected_verses": [
+   "7:199",
+   "24:22",
+   "64:14",
+   "3:159"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_024",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الخشية",
+  "expected_verses": [
+   "13:21",
+   "23:57",
+   "35:28",
+   "50:33",
+   "67:12"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_005",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "التوبة",
+  "expected_verses": [
+   "2:37",
+   "2:160",
+   "4:17",
+   "5:39",
+   "66:8"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_006",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الشكر",
+  "expected_verses": [
+   "2:152",
+   "14:7",
+   "16:114",
+   "31:12"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_007",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "العلم",
+  "expected_verses": [
+   "2:31",
+   "20:114",
+   "39:9",
+   "58:11",
+   "96:1"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_008",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "بر الوالدين",
+  "expected_verses": [
+   "2:83",
+   "4:36",
+   "17:23",
+   "17:24",
+   "31:14"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_009",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "حفظ اللسان",
+  "expected_verses": [
+   "17:53",
+   "50:18",
+   "4:114",
+   "33:70"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_010",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الجنة",
+  "expected_verses": [
+   "2:82",
+   "3:133",
+   "3:185",
+   "7:42",
+   "7:43"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_011",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "التقوى",
+  "expected_verses": [
+   "2:2",
+   "2:21",
+   "2:177",
+   "2:183",
+   "65:2",
+   "3:102"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_012",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الإحسان",
+  "expected_verses": [
+   "2:195",
+   "3:134",
+   "4:125",
+   "7:56",
+   "16:90"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_013",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الصلاة",
+  "expected_verses": [
+   "2:43",
+   "2:45",
+   "2:238",
+   "4:103",
+   "20:14",
+   "29:45"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_014",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الأمانة",
+  "expected_verses": [
+   "4:58",
+   "8:27",
+   "23:8",
+   "33:72",
+   "70:32"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_002",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "الشدة والفرج",
+  "expected_verses": [
+   "2:286",
+   "94:5",
+   "94:6",
+   "65:7"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_003",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "الظلم والعدل الإلهي",
+  "expected_verses": [
+   "4:40",
+   "18:49",
+   "21:47",
+   "41:46"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_multi_hop_ar_000",
+  "lang": "ar",
+  "bucket": "multi_hop_ar",
+  "query": "الصبر والصلاة",
+  "expected_verses": [
+   "2:45",
+   "2:153",
+   "2:155",
+   "2:156",
+   "2:157"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_multi_hop_ar_001",
+  "lang": "ar",
+  "bucket": "multi_hop_ar",
+  "query": "الإيمان والعمل الصالح",
+  "expected_verses": [
+   "2:277",
+   "16:97",
+   "18:107",
+   "103:3"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_020",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "namaz kaise padhe",
+  "expected_verses": [
+   "2:43",
+   "2:45",
+   "2:238",
+   "4:103",
+   "20:14",
+   "29:45"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_021",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "roza kab farz hua",
+  "expected_verses": [
+   "2:183",
+   "2:184",
+   "2:185",
+   "2:187"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_022",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "zakat kis par farz hai",
+  "expected_verses": [
+   "2:110",
+   "2:267",
+   "9:60",
+   "9:103"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_023",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "walidain ke huqooq",
+  "expected_verses": [
+   "2:83",
+   "4:36",
+   "17:23",
+   "17:24",
+   "31:14"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_024",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "ghibat kya hai",
+  "expected_verses": [
+   "49:12",
+   "104:1"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_025",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "dua ki qabooliyat",
+  "expected_verses": [
+   "2:186",
+   "7:55",
+   "7:56",
+   "40:60"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_026",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "qayamat kab hogi",
+  "expected_verses": [
+   "7:187",
+   "20:15",
+   "22:7",
+   "33:63",
+   "42:17"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_027",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "jannat kaisi hai",
+  "expected_verses": [
+   "2:82",
+   "3:133",
+   "3:185",
+   "7:42",
+   "7:43"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_028",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "jahannam ka azab",
+  "expected_verses": [
+   "2:24",
+   "2:39",
+   "3:131",
+   "4:14",
+   "3:116"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_029",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "shadi ke ahkam",
+  "expected_verses": [
+   "2:221",
+   "4:3",
+   "24:32",
+   "4:22",
+   "4:25"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_030",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "talaq ke ahkam",
+  "expected_verses": [
+   "2:227",
+   "2:229",
+   "2:230",
+   "2:231",
+   "65:1"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_031",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "waris ki taqseem",
+  "expected_verses": [
+   "4:7",
+   "4:11",
+   "4:12",
+   "4:33",
+   "4:176"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_032",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "sood kya hai",
+  "expected_verses": [
+   "2:275",
+   "2:276",
+   "2:278",
+   "3:130",
+   "4:161"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_033",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "sharab ki hurmat",
+  "expected_verses": [
+   "2:219",
+   "5:90",
+   "5:91"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_034",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "jaanwar ki halal haram",
+  "expected_verses": [
+   "5:1",
+   "5:3",
+   "5:4",
+   "5:5",
+   "5:87"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_035",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "ilm aur amal",
+  "expected_verses": [
+   "2:277",
+   "16:97",
+   "18:107",
+   "103:3"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_036",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "maa baap ki nafarmani",
+  "expected_verses": [
+   "17:23",
+   "17:24",
+   "31:14",
+   "2:83",
+   "4:36"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_037",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "hasad kya hai",
+  "expected_verses": [
+   "4:54",
+   "113:5",
+   "2:109"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_038",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "takabbur ka anjaam",
+  "expected_verses": [
+   "2:34",
+   "7:13",
+   "7:36",
+   "7:40",
+   "7:146",
+   "16:23",
+   "40:35"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_039",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "sach bolne ki fazilat",
+  "expected_verses": [
+   "3:17",
+   "5:119",
+   "9:119",
+   "33:70"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_000",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما حكم شراء العملات الرقمية؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_001",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "كم عدد ركعات صلاة الوتر؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_002",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما حكم التدخين في الإسلام؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_003",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما حكم صيام يوم عرفة؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_004",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما حكم أكل لحم الحصان؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_005",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ماذا أكل النبي ﷺ يوم الثلاثاء؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_006",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "من فاز بكأس العالم 1998؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ }
+]
