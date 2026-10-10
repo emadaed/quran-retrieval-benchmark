@@ -1,0 +1,6 @@
+# Quran Retrieval Benchmark — tooling dependencies
+
+# The dataset itself (data/*.json) has no dependencies.
+
+camel-tools>=1.5.0,<2.0
+huggingface-hub>=0.20
