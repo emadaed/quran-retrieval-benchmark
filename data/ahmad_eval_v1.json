@@ -3031,5 +3031,60 @@
   "source_dataset": "manual",
   "source_id": "",
   "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_012",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي تفاصيل أحكام سجود السهو في الصلاة؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_013",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "كم عدد تكبيرات الجنازة وطريقتها؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_014",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هو حكم الشراء والتسوق عبر الإنترنت؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_015",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي شروط وإجراءات كفالة اليتيم في القانون؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_016",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي المقادير الدقيقة لنصاب زكاة الفطر بالكيلوجرام؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
  }
 ]
