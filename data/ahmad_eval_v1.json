@@ -1946,22 +1946,6 @@
   "notes": "hand-labeled"
  },
  {
-  "qid": "ae_semantic_ar_014",
-  "lang": "ar",
-  "bucket": "semantic_ar",
-  "query": "الإيمان والعمل الصالح",
-  "expected_verses": [
-   "2:277",
-   "18:88",
-   "103:3",
-   "95:6"
-  ],
-  "answerable": true,
-  "source_dataset": "manual",
-  "source_id": "",
-  "notes": "hand-labeled"
- },
- {
   "qid": "ae_semantic_ar_015",
   "lang": "ar",
   "bucket": "semantic_ar",
