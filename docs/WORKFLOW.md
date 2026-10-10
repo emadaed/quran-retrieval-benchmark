@@ -663,3 +663,37 @@ ASCII-only content or documentation.**
 | English-only question content | Either; `add_label.py` preferred |
 
 If in doubt, use `add_label.py`
+
+______________
+
+---
+
+## 11. Do not reference qid numbers in drafts
+
+The `qid` field is assigned by `tools\add_label.py` at commit time, using
+`max(existing number in bucket) + 1`. You must never:
+
+- Invent a `qid` for a draft question.
+- Reference an existing `qid` in a suggestion ("replace
+  `ae_lexical_ar_020` with...").
+- Predict what a new question's `qid` will be.
+
+**Why:** the qid numbering is an implementation detail, and a previous
+session produced 25 collisions because `add_label.py` originally assigned
+qids from the *count* of questions in a bucket rather than the *maximum*.
+That bug is fixed now, but the rule stands: do not touch qids.
+
+**What to reference instead:**
+
+- By query text: "the question with query `الصدقة`".
+- By bucket + position: "the third `lexical_ar` question in the file".
+- By all of the above if needed.
+
+If you ever need the current state of the file (counts, existing queries),
+ask the human to run:
+python tools\validate_qids.py
+
+Expected: totals, per-bucket counts, and "VALIDATION OK".
+
+
+Use the output. Do not guess.

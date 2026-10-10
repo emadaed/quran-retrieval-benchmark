@@ -1075,5 +1075,1961 @@
   "source_dataset": "manual",
   "source_id": "",
   "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_015",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الاستغفار",
+  "expected_verses": [
+   "3:135",
+   "71:10",
+   "110:3",
+   "3:17"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_016",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الرضاعة",
+  "expected_verses": [
+   "2:233",
+   "4:23",
+   "65:6",
+   "22:2"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_017",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "العدل",
+  "expected_verses": [
+   "4:58",
+   "5:8",
+   "16:90",
+   "4:135"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_018",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الهجرة",
+  "expected_verses": [
+   "2:218",
+   "4:100",
+   "9:20",
+   "16:41"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_019",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الإفك",
+  "expected_verses": [
+   "24:11",
+   "24:12",
+   "37:86",
+   "46:11"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_060",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الصلح",
+  "expected_verses": [
+   "4:128",
+   "49:9",
+   "49:10",
+   "8:1"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_061",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "اليتامى",
+  "expected_verses": [
+   "2:220",
+   "4:2",
+   "4:3",
+   "4:6"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_062",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الكبر",
+  "expected_verses": [
+   "17:23",
+   "14:39",
+   "15:54",
+   "3:40"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_063",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الميسر",
+  "expected_verses": [
+   "2:219",
+   "5:90",
+   "5:91"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_064",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "القصاص",
+  "expected_verses": [
+   "2:178",
+   "2:179",
+   "5:45"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_025",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الانفاق",
+  "expected_verses": [
+   "2:261",
+   "2:262",
+   "2:270",
+   "3:134"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_026",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الوسوسة",
+  "expected_verses": [
+   "7:20",
+   "20:120",
+   "50:16",
+   "114:4",
+   "114:5"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_027",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "المحيا والممات",
+  "expected_verses": [
+   "6:162",
+   "45:21"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_028",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الشح",
+  "expected_verses": [
+   "4:128",
+   "59:9",
+   "64:16"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_029",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "النجوى",
+  "expected_verses": [
+   "17:47",
+   "20:62",
+   "58:7",
+   "58:8",
+   "58:12"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_030",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الشهادة",
+  "expected_verses": [
+   "2:282",
+   "2:283",
+   "5:106",
+   "65:2"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_031",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "البغضاء",
+  "expected_verses": [
+   "3:118",
+   "5:14",
+   "5:64",
+   "5:91",
+   "60:4"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_032",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الميثاق",
+  "expected_verses": [
+   "2:83",
+   "2:84",
+   "3:81",
+   "5:7",
+   "13:20"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_033",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الجهاد",
+  "expected_verses": [
+   "2:218",
+   "3:142",
+   "9:41",
+   "22:78"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_034",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الصيام",
+  "expected_verses": [
+   "2:183",
+   "2:184",
+   "2:187"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_035",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الرزق",
+  "expected_verses": [
+   "2:3",
+   "2:22",
+   "11:6",
+   "51:58"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_036",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الشفاء",
+  "expected_verses": [
+   "9:14",
+   "10:57",
+   "16:69",
+   "17:82"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_037",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "النور",
+  "expected_verses": [
+   "2:257",
+   "5:15",
+   "24:35",
+   "64:8"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_038",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الظلمات",
+  "expected_verses": [
+   "2:257",
+   "6:1",
+   "14:1",
+   "33:43"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_039",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الظلم",
+  "expected_verses": [
+   "3:57",
+   "6:52",
+   "10:52",
+   "31:13"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_040",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "القصص",
+  "expected_verses": [
+   "3:62",
+   "7:176",
+   "12:3",
+   "28:25"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_041",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "البر",
+  "expected_verses": [
+   "2:177",
+   "2:189",
+   "3:92",
+   "5:2"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_042",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الشفاعة",
+  "expected_verses": [
+   "2:255",
+   "6:51",
+   "10:3",
+   "39:44"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_043",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الوصية",
+  "expected_verses": [
+   "2:180",
+   "4:11",
+   "4:12",
+   "5:106"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_044",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "القسط",
+  "expected_verses": [
+   "3:18",
+   "5:8",
+   "49:9",
+   "57:25"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_045",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الفرقان",
+  "expected_verses": [
+   "2:53",
+   "3:4",
+   "8:29",
+   "25:1"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_046",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الاستقامة",
+  "expected_verses": [
+   "11:112",
+   "41:30",
+   "46:13"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_047",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الإخلاص",
+  "expected_verses": [
+   "39:2",
+   "39:11",
+   "40:14"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_048",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "العهد",
+  "expected_verses": [
+   "2:40",
+   "5:1",
+   "16:91",
+   "17:34"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_049",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الدعاء",
+  "expected_verses": [
+   "2:186",
+   "7:55",
+   "40:60"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_050",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الهدى",
+  "expected_verses": [
+   "2:159",
+   "3:73",
+   "9:33",
+   "48:28"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_051",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الضلال",
+  "expected_verses": [
+   "2:16",
+   "3:90",
+   "4:167",
+   "14:3"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_052",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "النار",
+  "expected_verses": [
+   "2:39",
+   "3:131",
+   "4:56",
+   "9:17"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_053",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الشيطان",
+  "expected_verses": [
+   "2:168",
+   "3:175",
+   "4:60",
+   "5:91"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_054",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الذكر",
+  "expected_verses": [
+   "15:9",
+   "16:44",
+   "21:50",
+   "38:1"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_055",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الزكاة",
+  "expected_verses": [
+   "2:43",
+   "2:110",
+   "9:5",
+   "22:41"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_056",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الملائكة",
+  "expected_verses": [
+   "2:30",
+   "2:98",
+   "3:125",
+   "33:56"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_057",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "القرآن",
+  "expected_verses": [
+   "2:185",
+   "17:9",
+   "17:78",
+   "75:17"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_058",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الرحمة",
+  "expected_verses": [
+   "7:56",
+   "10:56",
+   "29:23",
+   "30:46"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_lexical_ar_059",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الصبر",
+  "expected_verses": [
+   "2:153",
+   "2:155",
+   "2:177",
+   "3:200"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_004",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "بر الوالدين",
+  "expected_verses": [
+   "17:23",
+   "29:8",
+   "31:14",
+   "46:15"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_005",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "حسن الخاتمة",
+  "expected_verses": [
+   "3:193",
+   "7:126",
+   "12:101"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_006",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "أهمية العلم والعلماء",
+  "expected_verses": [
+   "3:18",
+   "35:28",
+   "58:11"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_007",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "عدل الله وعدم الظلم",
+  "expected_verses": [
+   "4:40",
+   "10:44",
+   "18:49",
+   "21:47"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_008",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "عاقبة الصابرين",
+  "expected_verses": [
+   "2:155",
+   "3:200",
+   "16:96",
+   "39:10"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_009",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "صلة الرحم",
+  "expected_verses": [
+   "4:1",
+   "13:21",
+   "47:22"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_010",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "صفات المتقين",
+  "expected_verses": [
+   "2:2",
+   "2:3",
+   "2:4",
+   "3:134",
+   "3:135"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_011",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "تحريم أكل أموال الناس بالباطل",
+  "expected_verses": [
+   "2:188",
+   "4:29",
+   "4:161"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_012",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "جزاء الكبر والغرور",
+  "expected_verses": [
+   "7:36",
+   "16:29",
+   "39:60",
+   "40:76"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_013",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "التوكل على الله",
+  "expected_verses": [
+   "3:159",
+   "8:2",
+   "14:11",
+   "65:3"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_014",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "الإيمان والعمل الصالح",
+  "expected_verses": [
+   "2:277",
+   "18:88",
+   "103:3",
+   "95:6"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_015",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "عاقبة المكذبين والظالمين",
+  "expected_verses": [
+   "6:11",
+   "7:136",
+   "10:73",
+   "21:15"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_016",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "فضل الصبر والتقوى",
+  "expected_verses": [
+   "3:120",
+   "3:186",
+   "12:90"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_017",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "الوفاء بالعقود والعهود",
+  "expected_verses": [
+   "5:1",
+   "16:91",
+   "17:34"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_018",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "الرضا بالقضاء والقدر",
+  "expected_verses": [
+   "9:51",
+   "57:22",
+   "64:11"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_019",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "فضل قيام الليل التهجد",
+  "expected_verses": [
+   "17:79",
+   "32:16",
+   "73:20"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_020",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "النهي عن الغيبة والنميمة والسخرية",
+  "expected_verses": [
+   "49:11",
+   "49:12",
+   "104:1"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_021",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "جزاء الشاكرين ونعمهم",
+  "expected_verses": [
+   "14:7",
+   "16:114",
+   "35:30"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_022",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "عاقبة الظلم والظالمين في الأمم السابقة",
+  "expected_verses": [
+   "7:165",
+   "11:102",
+   "21:11"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_023",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "حقيقة الدنيا وزينتها",
+  "expected_verses": [
+   "10:24",
+   "18:45",
+   "57:20"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_024",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "الأمر بالمعروف والنهي عن المنكر",
+  "expected_verses": [
+   "3:104",
+   "3:110",
+   "9:71",
+   "22:41"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_025",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "أهوال يوم القيامة",
+  "expected_verses": [
+   "81:1",
+   "82:1",
+   "84:1",
+   "99:1"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_026",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "الجزاء بالعدل يوم القيامة",
+  "expected_verses": [
+   "21:47",
+   "39:70",
+   "45:22"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_027",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "صفات عباد الرحمن",
+  "expected_verses": [
+   "25:63",
+   "25:64",
+   "25:67",
+   "25:72"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_028",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "سعة رحمة الله بالمغفرة",
+  "expected_verses": [
+   "7:156",
+   "15:49",
+   "39:53"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_029",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "تحريم القتل بغير حق",
+  "expected_verses": [
+   "6:151",
+   "17:33",
+   "25:68"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_030",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "فضل الدعاء والضراعة",
+  "expected_verses": [
+   "7:55",
+   "27:62",
+   "40:60"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_031",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "التيسير ورفع الحرج في الدين",
+  "expected_verses": [
+   "2:185",
+   "5:6",
+   "22:78"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_032",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "جزاء المتكبرين",
+  "expected_verses": [
+   "7:36",
+   "16:29",
+   "39:72"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_033",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "عظمة خلق السماوات والأرض",
+  "expected_verses": [
+   "3:190",
+   "6:73",
+   "10:6",
+   "50:38"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_034",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "وجوب القسط والشهادة بالحق",
+  "expected_verses": [
+   "4:135",
+   "5:8",
+   "57:25"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_035",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "جزاء الكتمان لآيات الله",
+  "expected_verses": [
+   "2:159",
+   "2:174",
+   "3:187"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_036",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "الترغيب في الإنفاق في سبيل الله",
+  "expected_verses": [
+   "2:261",
+   "2:274",
+   "57:7"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_037",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "فضل التفكر والتدبر",
+  "expected_verses": [
+   "3:191",
+   "10:24",
+   "38:29",
+   "47:24"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_038",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "تحريم الشرك والوعيد عليه",
+  "expected_verses": [
+   "4:48",
+   "4:116",
+   "5:72",
+   "31:13"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_semantic_ar_039",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "جزاء المتقين وفي الجنات",
+  "expected_verses": [
+   "15:45",
+   "44:51",
+   "51:15",
+   "78:31"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_020",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the creation of man from clay",
+  "expected_verses": [
+   "23:12",
+   "32:7",
+   "37:11",
+   "55:14"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_021",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "description of Paradise and its rivers",
+  "expected_verses": [
+   "47:15",
+   "55:54",
+   "56:17",
+   "76:19"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_022",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "patience during times of hardship and trial",
+  "expected_verses": [
+   "2:155",
+   "3:186",
+   "21:35",
+   "39:10"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_023",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the oneness of God and refutation of partners",
+  "expected_verses": [
+   "6:19",
+   "16:22",
+   "21:22",
+   "112:1"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_024",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the prohibition of consuming intoxicants and gambling",
+  "expected_verses": [
+   "2:219",
+   "5:90",
+   "5:91"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_025",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "kindness and dutifulness to parents",
+  "expected_verses": [
+   "17:23",
+   "29:8",
+   "31:14",
+   "46:15"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_026",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the night of power and decree in Ramadan",
+  "expected_verses": [
+   "2:185",
+   "44:3",
+   "97:1",
+   "97:2",
+   "97:3"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_027",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the stories and miracles of Moses and Pharaoh",
+  "expected_verses": [
+   "7:103",
+   "20:24",
+   "28:3",
+   "40:23"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_028",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "charity and spending in the cause of Allah",
+  "expected_verses": [
+   "2:261",
+   "2:274",
+   "3:92",
+   "57:7"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_029",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "repentance and divine forgiveness for sins",
+  "expected_verses": [
+   "3:135",
+   "4:110",
+   "39:53",
+   "66:8"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_030",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the resurrection of bodies on the Day of Judgment",
+  "expected_verses": [
+   "17:49",
+   "22:5",
+   "36:78",
+   "75:3"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_031",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the story of Mary and the miraculous birth of Jesus",
+  "expected_verses": [
+   "3:45",
+   "19:16",
+   "19:22",
+   "21:91"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_032",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "establishing prayer and paying the prescribed charity",
+  "expected_verses": [
+   "2:43",
+   "2:110",
+   "9:5",
+   "22:41"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_033",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the obligation of fasting during the month of Ramadan",
+  "expected_verses": [
+   "2:183",
+   "2:184",
+   "2:185"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_034",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the creation of the heavens and the earth in six days",
+  "expected_verses": [
+   "7:54",
+   "10:3",
+   "11:7",
+   "50:38"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_035",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the angels bowing down to Adam and Iblis refusing",
+  "expected_verses": [
+   "2:34",
+   "7:11",
+   "15:28",
+   "20:116"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_036",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the preservation and protection of the Quran from alteration",
+  "expected_verses": [
+   "15:9",
+   "41:42",
+   "56:78"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_037",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "trust in Allah and relying upon Him",
+  "expected_verses": [
+   "3:159",
+   "8:2",
+   "14:11",
+   "65:3"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_038",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "prohibition of interest and usury riba",
+  "expected_verses": [
+   "2:275",
+   "2:276",
+   "3:130",
+   "4:161"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_039",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "the story of the companions of the cave",
+  "expected_verses": [
+   "18:9",
+   "18:10",
+   "18:13",
+   "18:25"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_040",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "sabr aur namaz se madad hasil karo",
+  "expected_verses": [
+   "2:45",
+   "2:153"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_041",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "walidain ke sath husne sulook aur ahsan",
+  "expected_verses": [
+   "17:23",
+   "29:8",
+   "31:14",
+   "46:15"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_042",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "shirk ki mufat aur uski saza",
+  "expected_verses": [
+   "4:48",
+   "4:116",
+   "5:72",
+   "31:13"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_043",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "roze ke ahkam aur ramazan ka mahina",
+  "expected_verses": [
+   "2:183",
+   "2:184",
+   "2:185"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_044",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "jannat aur uski naimaton ka zikr",
+  "expected_verses": [
+   "47:15",
+   "55:54",
+   "56:12",
+   "76:19"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_045",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "jahannam aur uske azab ka bayan",
+  "expected_verses": [
+   "4:56",
+   "18:29",
+   "22:19",
+   "78:21"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_046",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "allah par tawakkul aur bharosa",
+  "expected_verses": [
+   "3:159",
+   "8:2",
+   "14:11",
+   "65:3"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_047",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "chori ki saza aur uske ahkam",
+  "expected_verses": [
+   "5:38",
+   "5:39"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_048",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "namaz ki pabandi aur qayam ka hukm",
+  "expected_verses": [
+   "2:43",
+   "2:110",
+   "17:78",
+   "20:14"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_049",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "tauba ki fazeelat aur gunahon ki mafi",
+  "expected_verses": [
+   "3:135",
+   "4:110",
+   "39:53",
+   "66:8"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_050",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "insan ki mitti se takhleeq",
+  "expected_verses": [
+   "23:12",
+   "32:7",
+   "37:11",
+   "55:14"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_051",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "sood ki hurmat aur uske ahkam",
+  "expected_verses": [
+   "2:275",
+   "2:276",
+   "3:130",
+   "4:161"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_052",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "hazrat musa aur firaun ka qissa",
+  "expected_verses": [
+   "7:103",
+   "20:24",
+   "28:3",
+   "40:23"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_053",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "qayamat ke din dobara zinda hona",
+  "expected_verses": [
+   "17:49",
+   "22:5",
+   "36:78",
+   "75:3"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_054",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "allah ke raste mein kharch karna",
+  "expected_verses": [
+   "2:261",
+   "2:274",
+   "3:92",
+   "57:7"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_055",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "yateemon ke huqooq aur unka maal",
+  "expected_verses": [
+   "4:2",
+   "4:6",
+   "4:10",
+   "17:34"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_056",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "sharab aur juay ki hurmat",
+  "expected_verses": [
+   "2:219",
+   "5:90",
+   "5:91"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_057",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "quran ki hifazat ka wada",
+  "expected_verses": [
+   "15:9",
+   "41:42",
+   "56:78"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_058",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "ashab e kahf ka qissa",
+  "expected_verses": [
+   "18:9",
+   "18:10",
+   "18:13",
+   "18:25"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_roman_urdu_059",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "shukar ada karne ki fazeelat",
+  "expected_verses": [
+   "14:7",
+   "16:114",
+   "35:30"
+  ],
+  "answerable": true,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_007",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي شروط عقد التأمين على الحياة؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_008",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "كم عدد الركعات في صلاة العيد؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_009",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي تفاصيل أحكام الزكاة في عروض التجارة؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_010",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي مبطلات الصيام المعاصرة كالإبر والمغذيات؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_unanswerable_ar_011",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هو حكم التعامل بالعملات الرقمية المشفرة؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "manual",
+  "source_id": "",
+  "notes": "hand-labeled"
  }
 ]

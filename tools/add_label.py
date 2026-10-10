@@ -3,35 +3,32 @@
 Add a hand-labeled question to the benchmark's eval file.
 
 Usage:
-    python add_label.py <bucket> "<query>" <ref1> <ref2> ...
-    python add_label.py unanswerable_ar "<query>"
+    python tools\\add_label.py <bucket> "<query>" <ref1> <ref2> ...
+    python tools\\add_label.py unanswerable_ar "<query>"
 
 Examples:
-    python add_label.py lexical_ar "الصدقة" 2:263 2:264 2:271
-    python add_label.py roman_urdu "namaz kaise padhe" 2:45 20:14
-    python add_label.py unanswerable_ar "ما حكم شراء العملات الرقمية؟"
+    python tools\\add_label.py lexical_ar "الاستغفار" 3:135 71:10 110:3
+    python tools\\add_label.py roman_urdu "namaz kaise padhe" 2:45 20:14
+    python tools\\add_label.py unanswerable_ar "ما حكم شراء العملات الرقمية؟"
 
-Notes:
-    - Writes to the BENCHMARK repo's eval file (this repo).
-    - Reads the canonical Quran DB from the retriever repo (read-only).
-    - Idempotent: if the same query already exists in the same bucket, skip.
-    - Validates each ref exists in the canonical DB.
-    - Assigns qid automatically: ae_<bucket>_<N:03d>.
+Guarantees:
+    - Validates every ref exists in the canonical Quran DB.
+    - Refuses if the computed qid already exists (no collisions).
+    - Refuses if the same (bucket, query) already exists (dedup).
+    - Assigns qid from max(existing NNN in bucket) + 1, not from count.
 
-Requires:
-    - The retriever repo at D:\\Ahmad-AI\\ahmad_v2 (for canonical_quran.db).
-    - No third-party Python packages beyond the standard library.
+Writes to: data/ahmad_eval_v1.json (this repo).
+Reads (read-only): canonical_quran.db from the retriever repo.
 """
 import json
+import re
 import sqlite3
 import sys
 from pathlib import Path
 
-# Where THIS repo writes. Benchmark repo, target file.
 ROOT = Path(r"D:\quran-retrieval-benchmark")
 EVAL_FILE = ROOT / "data" / "ahmad_eval_v1.json"
 
-# Where the Quran DB lives. Retriever repo, read-only.
 RETRIEVER_ROOT = Path(r"D:\Ahmad-AI\ahmad_v2")
 DB_PATH = RETRIEVER_ROOT / "data" / "canonical_quran.db"
 
@@ -43,6 +40,36 @@ VALID_BUCKETS = {
     "unanswerable_ar": "ar",
     "cross_lingual_en": "en",
 }
+
+# Legacy qid prefixes -> bucket (for max-number computation).
+LEGACY_PREFIX = {
+    "ae_en": "cross_lingual_en",
+    "ae_sem_wahi": "semantic_ar",
+    "ae_multi_hop_ar": "multi_hop_ar",
+}
+QID_RE = re.compile(r"^ae_(.+)_(\d{3,})$")
+
+
+def qid_bucket(qid: str):
+    for prefix in sorted(LEGACY_PREFIX, key=len, reverse=True):
+        if qid.startswith(prefix + "_"):
+            return LEGACY_PREFIX[prefix]
+    m = QID_RE.match(qid)
+    return m.group(1) if m else None
+
+
+def qid_number(qid: str):
+    m = re.search(r"_(\d{3,})$", qid)
+    return int(m.group(1)) if m else 0
+
+
+def max_number_for_bucket(data, bucket):
+    """Highest NNN currently used for this bucket, across all qid styles."""
+    m = 0
+    for q in data:
+        if qid_bucket(q["qid"]) == bucket:
+            m = max(m, qid_number(q["qid"]))
+    return m
 
 
 def validate_refs(refs):
@@ -100,13 +127,27 @@ def main():
     else:
         data = []
 
+    # Dedup check
     for q in data:
         if q["bucket"] == bucket and q["query"] == query:
             print(f'SKIP: "{query}" already exists as {q["qid"]}')
             sys.exit(0)
 
-    n = sum(1 for q in data if q["bucket"] == bucket)
-    qid = f"ae_{bucket}_{n:03d}"
+    # Compute next qid from max existing number in this bucket
+    max_n = max_number_for_bucket(data, bucket)
+    next_n = max_n + 1
+    qid = f"ae_{bucket}_{next_n:03d}"
+
+    # Collision guard (belt-and-braces; should never trigger after the fix)
+    existing_qids = {q["qid"] for q in data}
+    guard = 0
+    while qid in existing_qids:
+        next_n += 1
+        qid = f"ae_{bucket}_{next_n:03d}"
+        guard += 1
+        if guard > 10000:
+            print(f"ERROR: could not find free qid in bucket {bucket}")
+            sys.exit(1)
 
     entry = {
         "qid": qid,
