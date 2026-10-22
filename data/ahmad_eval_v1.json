@@ -3033,5 +3033,454 @@
   "source_dataset": "manual",
   "source_id": "",
   "notes": "hand-labeled"
+ },
+ {
+  "qid": "ae_cross_lingual_en_040",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "What does the Quran say about honesty and fairness in weights and measures during trade?",
+  "expected_verses": [
+   "6:152",
+   "17:35",
+   "83:1",
+   "83:2",
+   "83:3"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses explicitly command full measure and balance in trading and condemn cheating in weights."
+ },
+ {
+  "qid": "ae_cross_lingual_en_041",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "How does the Quran instruct believers to treat orphan property and wealth?",
+  "expected_verses": [
+   "4:2",
+   "4:10",
+   "17:34"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses forbid consuming orphan wealth unjustly and mandate handing over their rightful property."
+ },
+ {
+  "qid": "ae_cross_lingual_en_042",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "What rules does the Quran outline for fulfilling contracts and covenants?",
+  "expected_verses": [
+   "5:1",
+   "17:34"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses directly command believers to fulfill all contractual obligations and covenants."
+ },
+ {
+  "qid": "ae_cross_lingual_en_043",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "What are the rules mentioned in the Quran regarding seeking permission before entering other people's homes?",
+  "expected_verses": [
+   "24:27",
+   "24:28"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses outline the requirement of asking permission and greeting inhabitants before entering houses."
+ },
+ {
+  "qid": "ae_cross_lingual_en_044",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "What does the Quran state about the legal punishment for making false accusations of adultery without witnesses?",
+  "expected_verses": [
+   "24:4"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "This verse specifies eighty lashes and rejection of testimony for accusing chaste women without four witnesses."
+ },
+ {
+  "qid": "ae_cross_lingual_en_045",
+  "lang": "en",
+  "bucket": "cross_lingual_en",
+  "query": "How is the creation and purpose of iron described in the Quran?",
+  "expected_verses": [
+   "57:25"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "This verse explicitly mentions sending down iron containing great military power and benefits for humanity."
+ },
+ {
+  "qid": "ae_lexical_ar_065",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الربا",
+  "expected_verses": [
+   "2:275",
+   "2:276",
+   "3:130"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses directly prohibit usury/interest and explain its moral and legal consequences."
+ },
+ {
+  "qid": "ae_lexical_ar_066",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الحياء",
+  "expected_verses": [
+   "24:30",
+   "24:31",
+   "28:25"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses command lowering the gaze and modesty in dress, and describe the daughter of Shu'ayb walking with shyness."
+ },
+ {
+  "qid": "ae_lexical_ar_067",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الرفق",
+  "expected_verses": [
+   "3:159",
+   "48:29"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses describe gentleness as a divine gift and a mark of believers toward one another."
+ },
+ {
+  "qid": "ae_lexical_ar_068",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الشورى",
+  "expected_verses": [
+   "3:159",
+   "42:38"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These are the two Quranic verses commanding consultation in matters and describing believers as conducting affairs by mutual consultation."
+ },
+ {
+  "qid": "ae_lexical_ar_069",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الغيبة",
+  "expected_verses": [
+   "49:12"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "This verse directly prohibits backbiting and likens it to eating the flesh of a dead brother."
+ },
+ {
+  "qid": "ae_lexical_ar_070",
+  "lang": "ar",
+  "bucket": "lexical_ar",
+  "query": "الحكمة",
+  "expected_verses": [
+   "2:269",
+   "16:125",
+   "17:39"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses describe wisdom as a great good, as the manner of inviting to Allah, and as part of what is revealed."
+ },
+ {
+  "qid": "ae_multi_hop_ar_002",
+  "lang": "ar",
+  "bucket": "multi_hop_ar",
+  "query": "كيف يربط القرآن بين الإيمان والعمل الصالح؟",
+  "expected_verses": [
+   "2:82",
+   "103:2",
+   "103:3"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses combine faith and righteous deeds together as required conditions for salvation."
+ },
+ {
+  "qid": "ae_multi_hop_ar_003",
+  "lang": "ar",
+  "bucket": "multi_hop_ar",
+  "query": "ما الآيات التي تجمع بين التقوى والتوكل على الله؟",
+  "expected_verses": [
+   "65:2",
+   "65:3"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses explicitly link god-consciousness (taqwa) with relying upon Allah (tawakkul)."
+ },
+ {
+  "qid": "ae_multi_hop_ar_004",
+  "lang": "ar",
+  "bucket": "multi_hop_ar",
+  "query": "كيف يقرن القرآن بين بر الوالدين وتوحيد الله؟",
+  "expected_verses": [
+   "17:23",
+   "31:14"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses command monotheism and dutifulness to parents in the same direct instruction."
+ },
+ {
+  "qid": "ae_multi_hop_ar_005",
+  "lang": "ar",
+  "bucket": "multi_hop_ar",
+  "query": "ما العلاقة بين ذكر الله وطمأنينة القلوب في القرآن؟",
+  "expected_verses": [
+   "13:28"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "This verse directly states that hearts find rest and tranquility through the remembrance of Allah."
+ },
+ {
+  "qid": "ae_multi_hop_ar_006",
+  "lang": "ar",
+  "bucket": "multi_hop_ar",
+  "query": "كيف يربط القرآن بين الشكر وزيادة النعم؟",
+  "expected_verses": [
+   "14:7"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "This verse explicitly states that being grateful leads directly to an increase in favors from Allah."
+ },
+ {
+  "qid": "ae_multi_hop_ar_007",
+  "lang": "ar",
+  "bucket": "multi_hop_ar",
+  "query": "كيف تجمع الآيات بين العفو والصلح وأجرهما عند الله؟",
+  "expected_verses": [
+   "42:40"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "This verse combines pardoning and making reconciliation with the promise of reward from Allah."
+ },
+ {
+  "qid": "ae_roman_urdu_060",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "Quran me waldain ke sath husn-e-sulook aur unke samne uff na kehne ka hukm kahan hai?",
+  "expected_verses": [
+   "17:23"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "This verse explicitly commands kind treatment to parents and forbids saying 'uff' to them."
+ },
+ {
+  "qid": "ae_roman_urdu_061",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "Musalman aurat ke liye parde aur hijab ke baare me Quran me kya irshad hai?",
+  "expected_verses": [
+   "24:31",
+   "33:59"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses detail the rules of modesty, drawing outer garments, and head coverings for women."
+ },
+ {
+  "qid": "ae_roman_urdu_062",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "Sood khane wale ke baare me Quran me kya waid aayi hai?",
+  "expected_verses": [
+   "2:275",
+   "2:278",
+   "2:279"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses warn of war from Allah and His Messenger against those who deal in interest."
+ },
+ {
+  "qid": "ae_roman_urdu_063",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "Safar ya bimari me roza chorne aur badle me qaza karne ke kya ahkam hain?",
+  "expected_verses": [
+   "2:184",
+   "2:185"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses explain the concession for the sick and traveler to break fast and make it up later."
+ },
+ {
+  "qid": "ae_roman_urdu_064",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "Karz ka len den likhne aur gawah banane ke mutaliq Quran me kya hidayat hai?",
+  "expected_verses": [
+   "2:282"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "This verse provides comprehensive instructions for writing contracts of debt and bringing witnesses."
+ },
+ {
+  "qid": "ae_roman_urdu_065",
+  "lang": "ur-roman",
+  "bucket": "roman_urdu",
+  "query": "Jab kisi se koi gunah ho jaye toh mushkilaat ke baad tauba ki kya sharat hai?",
+  "expected_verses": [
+   "4:17",
+   "4:18"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses clarify that Allah accepts repentance done in ignorance soon after, not at the point of death."
+ },
+ {
+  "qid": "ae_semantic_ar_040",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "ما هو الحكم والتعليم القرآني عند سماع الاستهزاء بآيات الله في المجالس؟",
+  "expected_verses": [
+   "4:140",
+   "6:68"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses specify the requirement to leave or not sit in gatherings where Allah's verses are mocked."
+ },
+ {
+  "qid": "ae_semantic_ar_041",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "كيف ينبغي للمؤمنين التعامل عند قدوم شخص فاسق بخبر أو نبأ؟",
+  "expected_verses": [
+   "49:6"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "This verse specifically commands verifying information brought by a disobedient person before acting on it."
+ },
+ {
+  "qid": "ae_semantic_ar_042",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "ما هي الأحكام القرآنية الخاصة بأداء الصلاة في حالة الخوف والحرب؟",
+  "expected_verses": [
+   "4:101",
+   "4:102"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses explain shortening the prayer and the procedure for Salat al-Khawf during military conflict."
+ },
+ {
+  "qid": "ae_semantic_ar_043",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "ماذا يفعل الشخص إذا لم يجد ماء للطهور قبل الصلاة؟",
+  "expected_verses": [
+   "4:43",
+   "5:6"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses explicitly mandate Tayammum (dry ablution using clean earth) when water is unavailable."
+ },
+ {
+  "qid": "ae_semantic_ar_044",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "ما هي كيفية تقسيم الميراث بين الأخوة والأخوات الكلالة إذا لم يكن للمتوفى ولد ولا والد؟",
+  "expected_verses": [
+   "4:12",
+   "4:176"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "These verses explicitly define the inheritance shares for Kalalah (deceased leaving no parents or children)."
+ },
+ {
+  "qid": "ae_semantic_ar_045",
+  "lang": "ar",
+  "bucket": "semantic_ar",
+  "query": "ما هي كفارة اليمين المنعقدة إذا نكث بها الإنسان في القرآن؟",
+  "expected_verses": [
+   "5:89"
+  ],
+  "answerable": true,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "This verse specifies the exact expiations (feeding 10 poor, clothing them, freeing a slave, or fasting 3 days) for broken oaths."
+ },
+ {
+  "qid": "ae_unanswerable_ar_017",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي القوانين الفيزيائية لجاذبية الثقوب السوداء؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "Type (a): Modern astrophysics principles and mathematical laws of black hole gravity are not discussed in the Quran."
+ },
+ {
+  "qid": "ae_unanswerable_ar_018",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "من هو الفائز بكأس العالم لكرة القدم عام 2022؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "Type (a): Modern sports events and modern secular history are completely outside the scope of the Quran."
+ },
+ {
+  "qid": "ae_unanswerable_ar_019",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي قواعد برمجة الذكاء الاصطناعي بلغة بايثون؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "Type (a): Computer programming languages and modern technical software development guidelines are off-topic."
+ },
+ {
+  "qid": "ae_unanswerable_ar_020",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي الأطعمة والأعشاب التي كان يتناولها النبي محمد لعلاج الصداع؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "Type (b): Prophetic medicine details and specific personal dietary habits of the Prophet are documented in Hadith collections, not in the Quran."
+ },
+ {
+  "qid": "ae_unanswerable_ar_021",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي أحكام وضوابط بيع وشراء الأسهم والعملات الرقمية المشفرة؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "Type (b): Contemporary financial instruments and digital cryptocurrency trading regulations are modern Fiqh issues not detailed in the Quran."
+ },
+ {
+  "qid": "ae_unanswerable_ar_022",
+  "lang": "ar",
+  "bucket": "unanswerable_ar",
+  "query": "ما هي الشروط والتفاصيل الفقهية لصحة صلاة الخسوف والكسوف؟",
+  "expected_verses": [],
+  "answerable": false,
+  "source_dataset": "synthetic_gemini_v2",
+  "notes": "Type (b): Solar and lunar eclipse prayers are established via the Prophet's Sunnah and detailed in Fiqh, but their specific format is not in the Quran."
  }
 ]
