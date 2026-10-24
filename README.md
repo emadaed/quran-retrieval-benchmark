@@ -3,7 +3,7 @@
 **A 232-question hand-reviewed benchmark for verse-level Quranic retrieval.**
 
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Dataset-ahmad1979%2Fahmad-eval--v1-yellow)](https://huggingface.co/datasets/ahmad1979/ahmad-eval-v1)
+[![Dataset on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/dataset-on-hf-md.svg)](https://huggingface.co/datasets/ahmad1979/ahmad-eval-v1)
 [![Questions](https://img.shields.io/badge/Questions-232-blue)]()
 [![Buckets](https://img.shields.io/badge/Buckets-6-blue)]()
 
@@ -153,7 +153,7 @@ Report both. **R@5 alone understates retrieval quality because the gold sets are
 
 **fresh (36 questions):** filter source_dataset == "synthetic_gemini_v2". This is the held-out set for generalization testing.
 
-##Reference pipeline results
+### Reference pipeline results
 The reference pipeline (retrieval + verifier + two-layer scope-routing gate) was run end-to-end on this benchmark in Sessions 7h–7k. The full analysis — including the failure-mode decomposition and the pre-registered pass-rule verdict — is in pipeline_results.md on Hugging Face.
 
 ### Short version:
