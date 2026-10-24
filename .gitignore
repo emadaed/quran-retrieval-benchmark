@@ -52,3 +52,4 @@ review_*.txt
 data/*.json.bak
 data/*.json.*_bak
 data/*.json.pre_fix_bak
+tools/import_batch.py
