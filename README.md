@@ -113,7 +113,7 @@ See [`docs/SCHEMA.md`](docs/SCHEMA.md) for exact bucket definitions, the JSON sc
 
 ---
 
-## How to use
+### How to use
 
 Ahmad-Eval v1 is a JSON file:
 
@@ -136,7 +136,8 @@ source_dataset	string	Provenance identifier
 source_id	string	Original ID within source, "" for manual
 notes	string	Labeling notes and adversarial properties
 ```
-#Scoring
+
+###Scoring
 The benchmark scores retrieval by whether a gold verse appears in the top-k of the retrieval system's output. **Two metrics matter, and they measure different things:**
 
 R@5 — per-gold-verse recall. If a question has 4 gold verses and 1 appears in the top 5, that question contributes 25% to R@5.
@@ -145,17 +146,17 @@ hit@5 — per-question hit. If any gold verse appears in the top 5, the question
 
 Report both. **R@5 alone understates retrieval quality because the gold sets are narrow** (see Limitation 1 below). hit@5 is closer to what a user experiences.
 
-#Splits
+###Splits
 **test split** — all 232 questions. There is no train split. Training on this data contaminates every future evaluation on this benchmark.
 
 **calibration (196 questions):** filter source_dataset == "manual" OR source_dataset == "wahi-quran-retrieval-pairs/benchmark". This is the set the reference pipeline was tuned against.
 
 **fresh (36 questions):** filter source_dataset == "synthetic_gemini_v2". This is the held-out set for generalization testing.
 
-#Reference pipeline results
+##Reference pipeline results
 The reference pipeline (retrieval + verifier + two-layer scope-routing gate) was run end-to-end on this benchmark in Sessions 7h–7k. The full analysis — including the failure-mode decomposition and the pre-registered pass-rule verdict — is in pipeline_results.md on Hugging Face.
 
-#Short version:
+###Short version:
 
 **196 calibration questions (n=180 answerable):**
 
@@ -178,7 +179,7 @@ The fresh-set numbers are the publishable result. They fail the pre-registered t
 
 The dominant failure is that the reference pipeline's scope-routing gate over-fires on the fresh set's prose-like phrasing — 17 of 30 answerable fresh questions were gated out before reaching the retriever. This is a configuration failure in the gate's classification prompt, not a structural limit of the architecture. The retrieval, verifier, and gate all work; the prompt that drives the gate's classifier was tuned against the calibration set's phrasing and does not generalize.
 
-#Known limitations
+###Known limitations
 The dataset card on Hugging Face documents four limitations. Summarized here:
 
 **The gold sets are narrow.**  expected_verses is *a* set of valid verses, not the set. A retrieval system returning a valid verse not in expected_verses scores as "wrong" by strict R@5, even though the verse is a valid answer. A hand review of 15 sampled failures found 13 of 15 (87%) returned at least one clearly-or-plausibly relevant verse. Report hit@5 and R@5 together.
@@ -201,7 +202,7 @@ Evaluating cross-lingual retrieval from English and Roman-Urdu to Arabic verses.
 
 Reproducing the reference pipeline's evaluation using the artifacts in pipeline_results.md.
 
-#Out of scope:
+###Out of scope:
 
 **Answering religious questions authoritatively.**  This is a benchmark, not a fatwa service. The gold verses are retrieval targets, not rulings.
 
@@ -209,7 +210,7 @@ Reproducing the reference pipeline's evaluation using the artifacts in pipeline_
 
 **Publishing a "system accuracy" number without the abstention split and the failure-mode analysis.**  A verified rate without the abstention rate is not informative.
 
-#Licensing and provenance
+###Licensing and provenance
 The Quranic text (canonical_quran.db in the reference pipeline) is public domain.
 
 The English translation is Yusuf Ali, public domain.
@@ -222,7 +223,7 @@ The 36 synthetic_gemini_v2 questions were contributed by an external model and h
 
 The dataset is released under CC-BY-4.0. See LICENSE
 
-#Citation
+###Citation
 If you use Ahmad-Eval v1 in published work, cite it as:
 
 Ahmad-Eval v1: A 232-question retrieval and QA benchmark for the Quran.
@@ -230,7 +231,7 @@ Project: Ahmad-AI. Sessions 6–7, 2026.
 Repository: https://github.com/emadaed/quran-retrieval-benchmark
 Dataset: https://huggingface.co/datasets/ahmad1979/ahmad-eval-v1
 
-See also
+###See also
 Hugging Face dataset: ahmad1979/ahmad-eval-v1
 
 pipeline_results.md — full reference pipeline evaluation, failure-mode analysis, confidence intervals, pre-registered pass-rule verdict
@@ -253,10 +254,10 @@ Engineering log series — the seven-chapter narrative of how this benchmark and
 * 📕 **[Engineering Log 09: The Pipeline Does Not Generalize — and That's the Finding](https://emadaed.github.io/digisuite/engineering-log-9.html)**  
   *196 calibration questions pass. 36 fresh questions fail the pre-registered thresholds on both conditions. The 232-question benchmark is published on Hugging Face with both the passing and the failing numbers, and the four-tier promise from Chapter 03 is checked against what was actually built.*  
 
-#A note on what this benchmark is for
+###A note on what this benchmark is for
 This benchmark exists because no clean public verse-level Quranic retrieval benchmark existed when the project began. It is published to be useful to the next person who tries to build a Quranic retrieval system.
 
 It is published with the reference pipeline's measured results, including the parts where the pipeline fails.
 
-#A benchmark that only documents the wins is a marketing artifact, not a benchmark.
+###A benchmark that only documents the wins is a marketing artifact, not a benchmark.
 
