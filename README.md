@@ -135,7 +135,7 @@ answerable	bool	false iff bucket == "unanswerable_ar"
 source_dataset	string	Provenance identifier
 source_id	string	Original ID within source, "" for manual
 notes	string	Labeling notes and adversarial properties
-
+```
 #Scoring
 The benchmark scores retrieval by whether a gold verse appears in the top-k of the retrieval system's output. **Two metrics matter, and they measure different things:**
 
